@@ -1,0 +1,10 @@
+ru/netology/data/DataHelper.java
+ ru.netology.data.DataHelper
+ru/netology/page/RequestPage.java
+ ru.netology.page.RequestPage
+ru/netology/data/DataSql.java
+ ru.netology.data.DataSql
+ru/netology/test/BuyTicketAutoTest.java
+ ru.netology.test.BuyTicketAutoTest
+ru/netology/test/CreditBuyTicketAutoTest.java
+ ru.netology.test.CreditBuyTicketAutoTest
