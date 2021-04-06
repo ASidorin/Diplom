@@ -20,7 +20,6 @@ public class RequestPage {
     private SelenideElement monthField = $("[placeholder='08']");
     private SelenideElement yearField = $("[placeholder='22']");
 
-    //private SelenideElement nameField = $(".form-field .input .input__inner .input__box .input__control");
     private SelenideElement nameField = $(byText("Владелец")).parent().$(".input__control");
     private SelenideElement cvcField = $("[placeholder='999']");
 
@@ -35,7 +34,7 @@ public class RequestPage {
 
     DataHelper dataHelper = new DataHelper();
 
-    public void chooseBuyTicket(String card, String month, String year, String name, String cvc){
+    public void chooseBuyTicket(String card, String month, String year, String name, String cvc) {
         btnBuy.click();
         cardField.setValue(card);
         monthField.setValue(month);
@@ -45,7 +44,7 @@ public class RequestPage {
         btnContinue.scrollIntoView(false).click();
     }
 
-    public void chooseBuyCreditTicket(String card, String month, String year, String name, String cvc){
+    public void chooseBuyCreditTicket(String card, String month, String year, String name, String cvc) {
         btnBuyCredit.click();
         cardField.setValue(card);
         monthField.setValue(month);
@@ -55,27 +54,27 @@ public class RequestPage {
         btnContinue.scrollIntoView(false).click();
     }
 
-    public void setSuccessLabel(){
+    public void setSuccessLabel() {
         successLable.shouldBe(Condition.visible, Duration.ofSeconds(15));
     }
 
-    public void setErrorLabel(){
+    public void setErrorLabel() {
         errorLabel.shouldBe(Condition.visible, Duration.ofSeconds(15));
     }
 
-    public void setErrorText(){
+    public void setErrorText() {
         errorText.shouldBe(Condition.visible, Duration.ofSeconds(15));
     }
 
-    public void setErrorYear(){
+    public void setErrorYear() {
         errorYear.shouldBe(Condition.visible, Duration.ofSeconds(15));
     }
 
-    public void setErrorName(){
+    public void setErrorName() {
         errorName.shouldBe(Condition.visible, Duration.ofSeconds(15));
     }
 
-    public void setLimitTime(){
+    public void setLimitTime() {
         errorLimitYear.shouldBe(Condition.visible, Duration.ofSeconds(15));
     }
 

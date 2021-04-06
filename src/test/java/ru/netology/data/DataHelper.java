@@ -8,6 +8,11 @@ public class DataHelper {
 
     Faker faker = new Faker(new Locale("ru"));
 
+    /**
+     *
+     * Данные по карте
+     *
+     */
 
     public String enterValidCard() {
         return "4444444444444441";
@@ -29,67 +34,109 @@ public class DataHelper {
         return " ";
     }
 
+    /**
+     *
+     * Данные по месяцу
+     *
+     */
 
+    public String enterValidMouth() {
+        return "04";
+    }
 
-    public String enterValidMouth(){return "04";}
-    public String enterWithZeroMouth(){return "00";}
-    public String enterEmptyMouth(){return " ";}
-    public String enterWithOneNumbMouth(){return "3";}
+    public String enterWithZeroMouth() {
+        return "00";
+    }
 
+    public String enterEmptyMouth() {
+        return " ";
+    }
 
+    public String enterWithOneNumbMouth() {
+        return "3";
+    }
 
-    public String enterValidYear(){
+    /**
+     *
+     * Данные по году
+     *
+     */
+
+    public String enterValidYear() {
         return "25";
     }
-    public String enterInvalidYear(){
+
+    public String enterInvalidYear() {
         return "45";
     }
-    public String enterMoreThanMaxYear(){
+
+    public String enterMoreThanMaxYear() {
         return "29";
     }
-    public String enterMoreThanMinYear(){
+
+    public String enterMoreThanMinYear() {
         return "20";
     }
-    public String enterWithOneNumbYear(){
+
+    public String enterWithOneNumbYear() {
         return "4";
     }
-    public String enterEmptyYear(){
+
+    public String enterEmptyYear() {
         return " ";
     }
 
+    /**
+     *
+     * Данные по имени
+     *
+     */
 
 
-
-    public String enterValidName(){
+    public String enterValidName() {
         return faker.name().fullName();
     }
-    public String enterInvalidName(){
+
+    public String enterInvalidName() {
         return "Ssdfb";
     }
-    public String enterOneLetterName(){
+
+    public String enterOneLetterName() {
         return "K";
     }
-    public String enterEmptyName(){
+
+    public String enterEmptyName() {
         return " ";
     }
-    public String enterArabicName(){
+
+    public String enterArabicName() {
         return "سيبليسيب";
     }
 
 
-    public String enterValidCVC(){
+    /**
+     *
+     * Данные по CVC
+     *
+     */
+
+    public String enterValidCVC() {
         return "123";
     }
-    public String enterInvalidCVC(){
+
+    public String enterInvalidCVC() {
         return "999";
     }
-    public String enterZeroCVC(){
+
+    public String enterZeroCVC() {
         return "000";
     }
-    public String enterEmptyCVC(){
+
+    public String enterEmptyCVC() {
         return " ";
     }
-    public String enterWithOneNumbCVC(){
+
+    public String enterWithOneNumbCVC() {
         return "2";
     }
 }

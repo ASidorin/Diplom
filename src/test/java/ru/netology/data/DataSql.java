@@ -8,7 +8,6 @@ import java.sql.SQLException;
 public class DataSql {
 
 
-
     public static String getPaymentStatus() {
         val getStatus = "SELECT status FROM payment_entity ORDER BY created DESC LIMIT 1;";
         try (
@@ -45,8 +44,6 @@ public class DataSql {
         }
         return null;
     }
-
-
 
 
 }

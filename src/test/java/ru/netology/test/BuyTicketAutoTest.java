@@ -15,13 +15,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BuyTicketAutoTest {
 
     @BeforeAll
-    static void setUpAll(){
+    static void setUpAll() {
 
-        SelenideLogger.addListener("allure",new AllureSelenide());
+        SelenideLogger.addListener("allure", new AllureSelenide());
     }
 
     @AfterAll
-    static void tearDownAll(){
+    static void tearDownAll() {
         SelenideLogger.removeListener("allure");
     }
 
@@ -95,7 +95,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldShortEnteredCardTestData(){
+    public void shouldShortEnteredCardTestData() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -110,13 +110,12 @@ public class BuyTicketAutoTest {
 
 
     /**
-     *
      * Checked negative tests
      * on month
      */
 
     @Test
-    public void shouldMonthZeroNumb(){
+    public void shouldMonthZeroNumb() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -131,7 +130,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldMonthWithOneNumb(){
+    public void shouldMonthWithOneNumb() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -146,7 +145,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldMonthEmpty(){
+    public void shouldMonthEmpty() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -162,13 +161,12 @@ public class BuyTicketAutoTest {
 
 
     /**
-     *
      * Checked negative tests
      * on Year
      */
 
     @Test
-    public void shouldInvalidYear(){
+    public void shouldInvalidYear() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -182,7 +180,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldMoreThanMaxYear(){
+    public void shouldMoreThanMaxYear() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -196,7 +194,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldMoreThanMinYear(){
+    public void shouldMoreThanMinYear() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -210,7 +208,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldOnlyOneNumbYear(){
+    public void shouldOnlyOneNumbYear() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -224,7 +222,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldWithoutNumbYear(){
+    public void shouldWithoutNumbYear() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -244,7 +242,7 @@ public class BuyTicketAutoTest {
      */
 
     @Test
-    public void shouldInvalidName(){
+    public void shouldInvalidName() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -258,7 +256,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldOnlyOneLetterName(){
+    public void shouldOnlyOneLetterName() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -272,7 +270,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldEmptyFieldName(){
+    public void shouldEmptyFieldName() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -286,7 +284,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldOnArabicLanguageName(){
+    public void shouldOnArabicLanguageName() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -301,13 +299,12 @@ public class BuyTicketAutoTest {
 
 
     /**
-     *
      * Checked negative tests
      * on CVC
      */
 
     @Test
-    public void shouldInvalidCVC(){
+    public void shouldInvalidCVC() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -321,7 +318,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldZeroCVC(){
+    public void shouldZeroCVC() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -335,7 +332,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldEmptyCVC(){
+    public void shouldEmptyCVC() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
@@ -349,7 +346,7 @@ public class BuyTicketAutoTest {
     }
 
     @Test
-    public void shouldOnlyOneLetterCVC(){
+    public void shouldOnlyOneLetterCVC() {
         RequestPage requestPage = new RequestPage();
         DataHelper dataHelper = new DataHelper();
         open("http://localhost:8080");
