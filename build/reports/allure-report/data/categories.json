@@ -1,0 +1,233 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675251506.0.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675251506.0.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldMonthZeroNumb()",
+        "uid" : "c4a4b4fe6f229adc",
+        "parentUid" : "c2a40bf51aaa14535d2a4e476fa01e18",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675226212,
+          "stop" : 1617675252423,
+          "duration" : 26211
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2a40bf51aaa14535d2a4e476fa01e18"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675275625.1.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675275625.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldOnlyOneLetterName()",
+        "uid" : "a127796d3b177ce5",
+        "parentUid" : "5b4d751dee3741acc87b740c0a84b9a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675258978,
+          "stop" : 1617675276444,
+          "duration" : 17466
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b4d751dee3741acc87b740c0a84b9a7"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675295105.2.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675295105.2.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldInvalidName()",
+        "uid" : "d40949d4d8163170",
+        "parentUid" : "801ef5504f45d3aebdf31d578804980a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675278300,
+          "stop" : 1617675295938,
+          "duration" : 17638
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "801ef5504f45d3aebdf31d578804980a"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675314596.3.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675314596.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldZeroCVC()",
+        "uid" : "16ff49d91b35d43b",
+        "parentUid" : "9221d8315d591fa404e339bd940d2617",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675297822,
+          "stop" : 1617675315412,
+          "duration" : 17590
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9221d8315d591fa404e339bd940d2617"
+    }, {
+      "name" : "Element should be visible {.notification_status_error .notification__content}\nElement: '<div class=\"notification__content\" displayed:false></div>'\nActual value: visible:false\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675344434.4.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675344434.4.html\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "shouldInvalidTestData()",
+        "uid" : "5bb5ec02aa0ca5c6",
+        "parentUid" : "d216ab86e0e5fc8f970e131230595741",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675327506,
+          "stop" : 1617675345235,
+          "duration" : 17729
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d216ab86e0e5fc8f970e131230595741"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675374849.5.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675374849.5.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldInvalidCVC()",
+        "uid" : "5976e686c0105800",
+        "parentUid" : "98f5a441caec0d7de26ccd0573e71351",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675358000,
+          "stop" : 1617675375682,
+          "duration" : 17682
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98f5a441caec0d7de26ccd0573e71351"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675395982.6.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675395982.6.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldOnArabicLanguageName()",
+        "uid" : "2bd99ef27b9a581f",
+        "parentUid" : "cc11e2f17de5afc0d1acbc285204b283",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675379271,
+          "stop" : 1617675396789,
+          "duration" : 17518
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc11e2f17de5afc0d1acbc285204b283"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675417134.7.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675417134.7.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldMonthZeroNumb()",
+        "uid" : "38482865a650d577",
+        "parentUid" : "ab3e1d7428e35f6705153f9d1497f876",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675400254,
+          "stop" : 1617675417936,
+          "duration" : 17682
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab3e1d7428e35f6705153f9d1497f876"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675439724.8.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675439724.8.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldOnlyOneLetterName()",
+        "uid" : "c0a3c3533c52404d",
+        "parentUid" : "7e98ac3ecf61773cbef2100ee98ba069",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675423033,
+          "stop" : 1617675440520,
+          "duration" : 17487
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e98ac3ecf61773cbef2100ee98ba069"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675458851.9.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675458851.9.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldInvalidName()",
+        "uid" : "b24c4711d737d20",
+        "parentUid" : "46488dddad01f568472b7bb72d0ef74b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675442138,
+          "stop" : 1617675459657,
+          "duration" : 17519
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46488dddad01f568472b7bb72d0ef74b"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675478345.10.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675478345.10.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldZeroCVC()",
+        "uid" : "92600110dbad06be",
+        "parentUid" : "98c395401c9a794a09b120caa4d491a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675461580,
+          "stop" : 1617675479148,
+          "duration" : 17568
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98c395401c9a794a09b120caa4d491a4"
+    }, {
+      "name" : "Element should be visible {.notification_status_error .notification__content}\nElement: '<div class=\"notification__content\" displayed:false></div>'\nActual value: visible:false\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675510241.11.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675510241.11.html\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "shouldInvalidTestData()",
+        "uid" : "457c9acd034409a0",
+        "parentUid" : "f97ce31f1906edd3f5f6a2c6b2745128",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675493624,
+          "stop" : 1617675511073,
+          "duration" : 17449
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f97ce31f1906edd3f5f6a2c6b2745128"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675536269.12.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675536269.12.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldInvalidCVC()",
+        "uid" : "c4381b435d7890a",
+        "parentUid" : "8a75dc46275aa80d65b8d8eb204244a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675519515,
+          "stop" : 1617675537092,
+          "duration" : 17577
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a75dc46275aa80d65b8d8eb204244a3"
+    }, {
+      "name" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675557442.13.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1617675557442.13.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "shouldOnArabicLanguageName()",
+        "uid" : "f59f52a27b03e255",
+        "parentUid" : "3bbee619ffcde9e259db079c9de17cef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617675540870,
+          "stop" : 1617675558239,
+          "duration" : 17369
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bbee619ffcde9e259db079c9de17cef"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

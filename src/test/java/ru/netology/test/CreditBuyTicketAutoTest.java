@@ -1,6 +1,9 @@
 package ru.netology.test;
 
-import lombok.val;
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import ru.netology.data.DataHelper;
 import ru.netology.data.DataSql;
@@ -11,7 +14,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CreditBuyTicketAutoTest {
 
+    @BeforeAll
+    static void setUpAll(){
 
+        SelenideLogger.addListener("allure",new AllureSelenide());
+    }
+
+    @AfterAll
+    static void tearDownAll(){
+        SelenideLogger.removeListener("allure");
+    }
 
     @Test
     public void shouldValidTestData() {
@@ -25,7 +37,7 @@ public class CreditBuyTicketAutoTest {
         String cvc = dataHelper.enterValidCVC();
         requestPage.chooseBuyCreditTicket(card, month, year, name, cvc);
         requestPage.setSuccessLabel();
-        val sqlData = DataSql.getPaymentFromCreditStatus();
+        String sqlData = DataSql.getPaymentFromCreditStatus();
         String expect = "APPROVED";
         assertEquals(expect, sqlData);
     }
@@ -43,7 +55,7 @@ public class CreditBuyTicketAutoTest {
         String cvc = dataHelper.enterValidCVC();
         requestPage.chooseBuyCreditTicket(card, month, year, name, cvc);
         requestPage.setErrorLabel();
-        val sqlData = DataSql.getPaymentFromCreditStatus();
+        String sqlData = DataSql.getPaymentFromCreditStatus();
         String expect = "DECLINED";
         assertEquals(expect, sqlData);
     }
