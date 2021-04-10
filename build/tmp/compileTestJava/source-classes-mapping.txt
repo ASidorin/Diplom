@@ -2,9 +2,9 @@ ru/netology/data/DataHelper.java
  ru.netology.data.DataHelper
 ru/netology/data/DataSql.java
  ru.netology.data.DataSql
-ru/netology/test/BuyTicketAutoTest.java
- ru.netology.test.BuyTicketAutoTest
 ru/netology/page/RequestPage.java
  ru.netology.page.RequestPage
-ru/netology/test/CreditBuyTicketAutoTest.java
- ru.netology.test.CreditBuyTicketAutoTest
+ru/netology/test/PaymentService.java
+ ru.netology.test.PaymentService
+ru/netology/test/CreditPaymentService.java
+ ru.netology.test.CreditPaymentService
