@@ -36,7 +36,7 @@ dependencies {
     testRuntimeOnly 'org.slf4j:slf4j-simple:1.7.30'
     implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
-   // testImplementation 'mysql:mysql-connector-java:8.0.18'
+    testImplementation 'mysql:mysql-connector-java:8.0.18'
     testImplementation'io.qameta.allure:allure-selenide:2.13.0'
     compileOnly 'org.projectlombok:lombok:1.18.16'
     annotationProcessor 'org.projectlombok:lombok:1.18.16'
