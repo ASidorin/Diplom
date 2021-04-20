@@ -1,0 +1,19 @@
+image: Ubuntu
+
+stack: jdk 11
+
+branches:
+  only:
+    - master
+
+build: off
+
+install:
+
+  - java -jar ./artifacts/app-order.jar
+  - ps: sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  - ps: sudo chmod +x /usr/local/bin/docker-compose
+
+build_script:
+  - ./gradlew test --info
+  - ./gradlew test -Dselenide.headless=true
