@@ -33,9 +33,34 @@
 
 
 ## Запуск проекта
+
+### Данная базовая версия проекта подключена для Базы данных MySQL:
   1. В командной строке введите: docker-compose up -d
   2. Затем введите: java -jar ./artifacts/aqa-shop.jar на порту 8080.
   3. Запускаем Allure (2xCtrl) и ввести: 
+       1) gradlew clean test allureReport
+       2) gradlew allureServe
+
+### Для подключения PostgreSQL необходимо:
+ 1. Прервать сессию. 
+ 2. Ввести docker-compose down
+ 3. Поменять настройки в файле application.properties. 
+ Для этого введите: 
+ 
+  ```
+  spring.datasource.url=jdbc:postgresql://localhost:5432/testDB
+  spring.datasource.username=postgres
+  spring.datasource.password=postgres
+  ```
+ 4. Поменять настройки в классе DataSQl в методах вызова "connection": 
+ ```
+ urlForPostgres 
+ userForPostgres 
+ passwordForPostgres
+ ```
+ 7. Запустить docker-compose up -d
+ 8. Затем введите: java -jar ./artifacts/aqa-shop.jar на порту 8080.
+ 9. Запускаем Allure (2xCtrl) и ввести: 
        1) gradlew clean test allureReport
        2) gradlew allureServe
  
