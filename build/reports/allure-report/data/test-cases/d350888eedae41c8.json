@@ -1,0 +1,247 @@
+{
+  "uid" : "d350888eedae41c8",
+  "name" : "shouldWithoutNumbYear()",
+  "fullName" : "ru.netology.test.PaymentService.shouldWithoutNumbYear",
+  "historyId" : "dbfb28702fb07fbed502983d943ea65d",
+  "time" : {
+    "start" : 1619134742208,
+    "stop" : 1619134744041,
+    "duration" : 1833
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"by text: Владелец\") parent()",
+      "time" : {
+        "start" : 1619134742209,
+        "stop" : 1619134742210,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1619134742211,
+        "stop" : 1619134742415,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Купить\") click()",
+      "time" : {
+        "start" : 1619134742442,
+        "stop" : 1619134742609,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='0000 0000 0000 0000']\") set value(4444444444444441)",
+      "time" : {
+        "start" : 1619134742609,
+        "stop" : 1619134742932,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='08']\") set value(04)",
+      "time" : {
+        "start" : 1619134742932,
+        "stop" : 1619134743111,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='22']\") set value( )",
+      "time" : {
+        "start" : 1619134743111,
+        "stop" : 1619134743277,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Владелец/By.xpath: ../.input__control\") set value(Шубин Эдуард Даниилович)",
+      "time" : {
+        "start" : 1619134743278,
+        "stop" : 1619134743682,
+        "duration" : 404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='999']\") set value(123)",
+      "time" : {
+        "start" : 1619134743683,
+        "stop" : 1619134743863,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Продолжить\") scroll into view(false)",
+      "time" : {
+        "start" : 1619134743863,
+        "stop" : 1619134743893,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by text: Продолжить\") get wrapped element()",
+        "time" : {
+          "start" : 1619134743863,
+          "stop" : 1619134743881,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"by text: Продолжить\") click()",
+      "time" : {
+        "start" : 1619134743893,
+        "stop" : 1619134744002,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Неверный формат\") should be([visible, 15 s.])",
+      "time" : {
+        "start" : 1619134744003,
+        "stop" : 1619134744041,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "MacBook-Pro-Aleksei.local"
+  }, {
+    "name" : "thread",
+    "value" : "21622@MacBook-Pro-Aleksei.local.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.PaymentService"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.PaymentService"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldWithoutNumbYear"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.PaymentService"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d350888eedae41c8.json",
+  "parameterValues" : [ ]
+}

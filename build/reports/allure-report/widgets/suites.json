@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "6b95751e5b29713fa9ade01a5c2a4a16",
+    "name" : "ru.netology.test.PaymentService",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 21
+    }
+  }, {
+    "uid" : "3a69c4cd84c99372b807eb95a7c97347",
+    "name" : "ru.netology.test.CreditPaymentService",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 21
+    }
+  } ]
+}

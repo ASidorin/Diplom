@@ -1,0 +1,247 @@
+{
+  "uid" : "172fdbbd6faf6b44",
+  "name" : "shouldEmptyFieldName()",
+  "fullName" : "ru.netology.test.CreditPaymentService.shouldEmptyFieldName",
+  "historyId" : "c9b7481d5e31986b0f0df85e8e1c2b50",
+  "time" : {
+    "start" : 1619135005511,
+    "stop" : 1619135008127,
+    "duration" : 2616
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"by text: Владелец\") parent()",
+      "time" : {
+        "start" : 1619135005516,
+        "stop" : 1619135005516,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1619135005518,
+        "stop" : 1619135005821,
+        "duration" : 303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Купить в кредит\") click()",
+      "time" : {
+        "start" : 1619135005823,
+        "stop" : 1619135006028,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='0000 0000 0000 0000']\") set value(4444444444444441)",
+      "time" : {
+        "start" : 1619135006028,
+        "stop" : 1619135006430,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='08']\") set value(04)",
+      "time" : {
+        "start" : 1619135006430,
+        "stop" : 1619135006659,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='22']\") set value(25)",
+      "time" : {
+        "start" : 1619135006659,
+        "stop" : 1619135006904,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Владелец/By.xpath: ../.input__control\") set value( )",
+      "time" : {
+        "start" : 1619135006904,
+        "stop" : 1619135007739,
+        "duration" : 835
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[placeholder='999']\") set value(123)",
+      "time" : {
+        "start" : 1619135007739,
+        "stop" : 1619135007942,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Продолжить\") scroll into view(false)",
+      "time" : {
+        "start" : 1619135007942,
+        "stop" : 1619135007979,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by text: Продолжить\") get wrapped element()",
+        "time" : {
+          "start" : 1619135007942,
+          "stop" : 1619135007965,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"by text: Продолжить\") click()",
+      "time" : {
+        "start" : 1619135007979,
+        "stop" : 1619135008084,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Поле обязательно для заполнения\") should be([visible, 15 s.])",
+      "time" : {
+        "start" : 1619135008084,
+        "stop" : 1619135008127,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "MacBook-Pro-Aleksei.local"
+  }, {
+    "name" : "thread",
+    "value" : "21740@MacBook-Pro-Aleksei.local.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.CreditPaymentService"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.CreditPaymentService"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldEmptyFieldName"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.CreditPaymentService"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "172fdbbd6faf6b44.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,814 @@
+{
+  "8f15ea48129413618bd1b8a5a5e2d245" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f9aad0d72c076a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134666420,
+        "stop" : 1619134668707,
+        "duration" : 2287
+      }
+    } ]
+  },
+  "bcd7a356ad9392bbecadb2498e6cc5fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16bbab16c021928a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134744047,
+        "stop" : 1619134745743,
+        "duration" : 1696
+      }
+    } ]
+  },
+  "50e856f94dec0601411134953b3ec140" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28138fdbfa5a421d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134982554,
+        "stop" : 1619134985281,
+        "duration" : 2727
+      }
+    } ]
+  },
+  "fd142310e07d82ff055a1ad661150e9a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fca4dba7d6e4ff86",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134741668.5.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134741668.5.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134724991,
+        "stop" : 1619134742145,
+        "duration" : 17154
+      }
+    } ]
+  },
+  "5b53ed8731e49c53d647879116f06f04" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e4ed942fcd4365a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134762840.6.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134762840.6.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134745748,
+        "stop" : 1619134763264,
+        "duration" : 17516
+      }
+    } ]
+  },
+  "72aaa03cae86804cda2219c1680baa13" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43776d198c35e327",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134981268.5.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134981268.5.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134964257,
+        "stop" : 1619134982482,
+        "duration" : 18225
+      }
+    } ]
+  },
+  "79d054013cd42f03f9f7e62f9835810b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d10e7593630f9096",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134714469,
+        "stop" : 1619134724969,
+        "duration" : 10500
+      }
+    } ]
+  },
+  "ba0683d4df76588bfd4560541cf4533d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "457f1fd71d8ffd9",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {.notification_status_error .notification__content}\nElement: '<div class=\"notification__content\" displayed:false></div>'\nActual value: visible:false\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134946128.4.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134946128.4.html\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1619134929309,
+        "stop" : 1619134947311,
+        "duration" : 18002
+      }
+    } ]
+  },
+  "c4006c6b1f04f3ccbb793f387a69e263" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3a36ad9971818de",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {.notification_status_error .notification__content}\nElement: '<div class=\"notification__content\" displayed:false></div>'\nActual value: visible:false\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134712043.4.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134712043.4.html\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1619134695128,
+        "stop" : 1619134712496,
+        "duration" : 17368
+      }
+    } ]
+  },
+  "587b4caacf03ea858829b35891d8266e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a8818408b6b5a02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134622353,
+        "stop" : 1619134625023,
+        "duration" : 2670
+      }
+    } ]
+  },
+  "c59856d295d8f1fdb8121f4ed0f35533" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5202700a865c0a3a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619135004384.6.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619135004384.6.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134987504,
+        "stop" : 1619135005492,
+        "duration" : 17988
+      }
+    } ]
+  },
+  "571cd7483e6703998ab3c7938a0a1c0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d1640f1440b77f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134688793,
+        "stop" : 1619134690663,
+        "duration" : 1870
+      }
+    } ]
+  },
+  "c9b7481d5e31986b0f0df85e8e1c2b50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "172fdbbd6faf6b44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619135005511,
+        "stop" : 1619135008127,
+        "duration" : 2616
+      }
+    } ]
+  },
+  "a8f706271070a17930fdb150809dcffe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "415b321bd0ace9bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134765184,
+        "stop" : 1619134766759,
+        "duration" : 1575
+      }
+    } ]
+  },
+  "1560e3ca2447859ec8e89dd26f12fe6e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8f509228f1c666b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134763272,
+        "stop" : 1619134765179,
+        "duration" : 1907
+      }
+    } ]
+  },
+  "fac37b3b83d27419507693ae3612c400" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fdafd9c1d6fad87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134916282,
+        "stop" : 1619134919131,
+        "duration" : 2849
+      }
+    } ]
+  },
+  "8072333eecb52173285d633bad38aeac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b3dc6ecc114bf48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134686324,
+        "stop" : 1619134688779,
+        "duration" : 2455
+      }
+    } ]
+  },
+  "e0b222fb01f2f5d82aa2059f480920a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc63bdcf206273e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134920952,
+        "stop" : 1619134929299,
+        "duration" : 8347
+      }
+    } ]
+  },
+  "365f0c816eb90a0a003b574f5ebd03df" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86abcdc714deb79f",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134874388.1.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134874388.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134857771,
+        "stop" : 1619134874860,
+        "duration" : 17089
+      }
+    } ]
+  },
+  "3e5c42af1da55c29676bf1dea1cca95" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "341e0c934cb46d62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134895138,
+        "stop" : 1619134897970,
+        "duration" : 2832
+      }
+    } ]
+  },
+  "dba0433bff2a6de2fc079bf627bc7a7a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "712ec1624444661d",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134893797.2.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134893797.2.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134876896,
+        "stop" : 1619134895121,
+        "duration" : 18225
+      }
+    } ]
+  },
+  "c187819cb89c1e0b32802bb4fec0c8b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5eee0b5176634e3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134947323,
+        "stop" : 1619134950152,
+        "duration" : 2829
+      }
+    } ]
+  },
+  "d756959838dc5da531fb330c6728a441" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "561fc7f08a7a3cb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134985286,
+        "stop" : 1619134987497,
+        "duration" : 2211
+      }
+    } ]
+  },
+  "fc467acbacae9a1319726c9fb8313be7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df81003f51bee429",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134646339.1.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134646339.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134629622,
+        "stop" : 1619134646834,
+        "duration" : 17212
+      }
+    } ]
+  },
+  "9319aa1c1c51d4adff141a2326e0388d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e63b9e2d6929d8b9",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134914822.3.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134914822.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134897976,
+        "stop" : 1619134916182,
+        "duration" : 18206
+      }
+    } ]
+  },
+  "4bab96c485dbd2fffe12d67218c24c1c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4c97dc5982c8c13",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134621539.0.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134621539.0.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134588068,
+        "stop" : 1619134622110,
+        "duration" : 34042
+      }
+    } ]
+  },
+  "dfbace8a71cecf38d6734f118eaca06a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a35c690fa6908ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134625288,
+        "stop" : 1619134627542,
+        "duration" : 2254
+      }
+    } ]
+  },
+  "c38f8f1873748befa3653ab0bda6c397" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b68b1834a4d4519",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134685705.3.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134685705.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134668722,
+        "stop" : 1619134686314,
+        "duration" : 17592
+      }
+    } ]
+  },
+  "b3cc8113ea74bc9f8d0544e1f78b2ef9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f270fdb9f879682",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134665941.2.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134665941.2.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134648811,
+        "stop" : 1619134666410,
+        "duration" : 17599
+      }
+    } ]
+  },
+  "ce32711938497ea137560ba8d1eac630" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e78b8f500e4ef8e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134950157,
+        "stop" : 1619134964229,
+        "duration" : 14072
+      }
+    } ]
+  },
+  "dbfb28702fb07fbed502983d943ea65d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d350888eedae41c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134742208,
+        "stop" : 1619134744041,
+        "duration" : 1833
+      }
+    } ]
+  },
+  "b81401a74356a2399a1d7d7b61c90ccc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d8e10ce9be9aeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134627555,
+        "stop" : 1619134629602,
+        "duration" : 2047
+      }
+    } ]
+  },
+  "79366cae9962c90bc71ae319330a0073" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b10158ea4a2bc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134874869,
+        "stop" : 1619134876889,
+        "duration" : 2020
+      }
+    } ]
+  },
+  "5de674be40eef1a0687b3a6adadfe2c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "faeb26e1a89918fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134851702,
+        "stop" : 1619134854065,
+        "duration" : 2363
+      }
+    } ]
+  },
+  "c9a1130cc33fdf9aca6ba17c1ec5a795" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c5ac9b0957109ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134690673,
+        "stop" : 1619134695118,
+        "duration" : 4445
+      }
+    } ]
+  },
+  "f410aad83a88c156fc3eecb04ceae1c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aea8fa732e5db007",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134712504,
+        "stop" : 1619134714465,
+        "duration" : 1961
+      }
+    } ]
+  },
+  "910b843c40e8fc647ca6dca617e0ef89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3edfd149ce3755ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134919138,
+        "stop" : 1619134920948,
+        "duration" : 1810
+      }
+    } ]
+  },
+  "950462c201b539a105fb2b23b1b388fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a48f6dab8e42411d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134856052,
+        "stop" : 1619134857755,
+        "duration" : 1703
+      }
+    } ]
+  },
+  "e27cd1356628786805b59c56aebee000" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e73c58bedcf0125",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619135008132,
+        "stop" : 1619135009946,
+        "duration" : 1814
+      }
+    } ]
+  },
+  "47a6d1186c9178715e49c8b774e3197" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1fcb088ad8f7f05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134646852,
+        "stop" : 1619134648806,
+        "duration" : 1954
+      }
+    } ]
+  },
+  "e770abc604f7c82fd2aab3e8dd80e5b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "728a796be6d6c909",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619134854266,
+        "stop" : 1619134856045,
+        "duration" : 1779
+      }
+    } ]
+  },
+  "9c19ba445c8ef1b707709c9a65ae89a3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3ec840ed9286fb5",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Неверный формат}\nExpected: visible\nScreenshot: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134850859.0.png\nPage source: file:/Users/admin/Downloads/Diplom/build/reports/tests/1619134850859.0.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1619134823110,
+        "stop" : 1619134851453,
+        "duration" : 28343
+      }
+    } ]
+  }
+}
