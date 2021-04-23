@@ -1,4 +1,5 @@
 # Приложение по автоматезированному тестированию PaymentService
+[![Build status](https://ci.appveyor.com/api/projects/status/51hijlbevfwq0457/branch/master?svg=true)](https://ci.appveyor.com/project/AlexeiSidorin/diplom/branch/master)
 
 ## Описание тестируемого приложения
 
