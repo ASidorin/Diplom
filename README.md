@@ -1,6 +1,12 @@
 # Приложение по автоматезированному тестированию PaymentService
 [![Build status](https://ci.appveyor.com/api/projects/status/51hijlbevfwq0457/branch/master?svg=true)](https://ci.appveyor.com/project/AlexeiSidorin/diplom/branch/master)
 
+## Документы о проведенном тестировании
+
+1. [Tест план](https://github.com/AlexeiSidorin/Diplom/blob/master/documents/Plan.md)
+2. [Отчет по итогу тестирования](https://github.com/AlexeiSidorin/Diplom/blob/master/documents/Report.md)
+3. [Общий отчет](https://github.com/AlexeiSidorin/Diplom/blob/master/documents/Summary.md)
+
 ## Описание тестируемого приложения
 
 
