@@ -14,7 +14,9 @@ install:
   - docker-compose up -d
   - sleep 30
   - java -jar ./artifacts/aqa-shop.jar &
-  - sleep 20
 
 build_script:
+  - sleep 20
   - ./gradlew test  --info
+  - sleep 20
+  
